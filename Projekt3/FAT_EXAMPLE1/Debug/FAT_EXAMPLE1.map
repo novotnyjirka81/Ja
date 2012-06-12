@@ -133,7 +133,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0xa8 src/asf/avr32/drivers/pdca/pdca.o
  .debug_ranges  0x00000000       0xa0 src/asf/avr32/drivers/pdca/pdca.o
- .debug_str     0x00000000      0x4a0 src/asf/avr32/drivers/pdca/pdca.o
+ .debug_str     0x00000000      0x49e src/asf/avr32/drivers/pdca/pdca.o
  .comment       0x00000000       0x31 src/asf/avr32/drivers/pdca/pdca.o
  .text          0x00000000        0x0 src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi_mem.o
  .data          0x00000000        0x0 src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi_mem.o
@@ -310,7 +310,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x218 src/asf/avr32/drivers/flashc/flashc.o
  .debug_ranges  0x00000000      0x210 src/asf/avr32/drivers/flashc/flashc.o
- .debug_str     0x00000000      0xc5b src/asf/avr32/drivers/flashc/flashc.o
+ .debug_str     0x00000000      0xc59 src/asf/avr32/drivers/flashc/flashc.o
  .comment       0x00000000       0x31 src/asf/avr32/drivers/flashc/flashc.o
  .text          0x00000000        0x0 src/asf/avr32/drivers/gpio/gpio.o
  .data          0x00000000        0x0 src/asf/avr32/drivers/gpio/gpio.o
@@ -483,7 +483,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x28 src/asf/avr32/drivers/pm/pm_conf_clocks.o
  .debug_ranges  0x00000000       0x20 src/asf/avr32/drivers/pm/pm_conf_clocks.o
- .debug_str     0x00000000      0x544 src/asf/avr32/drivers/pm/pm_conf_clocks.o
+ .debug_str     0x00000000      0x542 src/asf/avr32/drivers/pm/pm_conf_clocks.o
  .comment       0x00000000       0x31 src/asf/avr32/drivers/pm/pm_conf_clocks.o
  .text          0x00000000        0x0 src/asf/avr32/drivers/pm/power_clocks_lib.o
  .data          0x00000000        0x0 src/asf/avr32/drivers/pm/power_clocks_lib.o
@@ -1980,33 +1980,33 @@ LOAD c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/av
  .debug_pubnames
                 0x00002698       0x1d c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-strlen.o)
 
-.debug_info     0x00000000    0x11826
+.debug_info     0x00000000    0x11824
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000     0x12d4 src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi.o
  .debug_info    0x000012d4      0x224 src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi_mem.o
  .debug_info    0x000014f8      0xf01 src/asf/avr32/boards/evk1100/led.o
  .debug_info    0x000023f9      0xb1b src/asf/avr32/drivers/gpio/gpio.o
- .debug_info    0x00002f14       0xab src/asf/avr32/drivers/intc/exception.o
- .debug_info    0x00002fbf      0x5b0 src/asf/avr32/drivers/intc/intc.o
- .debug_info    0x0000356f     0x1a59 src/asf/avr32/drivers/pm/pm.o
- .debug_info    0x00004fc8      0xf89 src/asf/avr32/drivers/pm/power_clocks_lib.o
- .debug_info    0x00005f51     0x108d src/asf/avr32/drivers/spi/spi.o
- .debug_info    0x00006fde     0x1dcd src/asf/avr32/drivers/usart/usart.o
- .debug_info    0x00008dab      0xe72 src/asf/avr32/services/fs/fat/fat.o
- .debug_info    0x00009c1d     0x1148 src/asf/avr32/services/fs/fat/fat_unusual.o
- .debug_info    0x0000ad65      0x6ca src/asf/avr32/services/fs/fat/file.o
- .debug_info    0x0000b42f     0x1181 src/asf/avr32/services/fs/fat/navigation.o
- .debug_info    0x0000c5b0     0x1676 src/asf/avr32/utils/debug/print_funcs.o
- .debug_info    0x0000dc26       0xaa src/asf/avr32/utils/startup/startup_uc3.o
- .debug_info    0x0000dcd0       0xb1 src/asf/avr32/utils/startup/trampoline_uc3.o
- .debug_info    0x0000dd81      0xeb4 src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx.o
- .debug_info    0x0000ec35      0x1ce src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx_mem.o
- .debug_info    0x0000ee03      0x569 src/asf/common/services/storage/ctrl_access/ctrl_access.o
- .debug_info    0x0000f36c     0x21d9 src/fat_example.o
- .debug_info    0x00011545       0x71 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-ctype_.o)
- .debug_info    0x000115b6       0xe5 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memcmp.o)
- .debug_info    0x0001169b       0xcd c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memset.o)
- .debug_info    0x00011768       0xbe c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-strlen.o)
+ .debug_info    0x00002f14       0xa9 src/asf/avr32/drivers/intc/exception.o
+ .debug_info    0x00002fbd      0x5b0 src/asf/avr32/drivers/intc/intc.o
+ .debug_info    0x0000356d     0x1a59 src/asf/avr32/drivers/pm/pm.o
+ .debug_info    0x00004fc6      0xf89 src/asf/avr32/drivers/pm/power_clocks_lib.o
+ .debug_info    0x00005f4f     0x108d src/asf/avr32/drivers/spi/spi.o
+ .debug_info    0x00006fdc     0x1dcd src/asf/avr32/drivers/usart/usart.o
+ .debug_info    0x00008da9      0xe72 src/asf/avr32/services/fs/fat/fat.o
+ .debug_info    0x00009c1b     0x1148 src/asf/avr32/services/fs/fat/fat_unusual.o
+ .debug_info    0x0000ad63      0x6ca src/asf/avr32/services/fs/fat/file.o
+ .debug_info    0x0000b42d     0x1181 src/asf/avr32/services/fs/fat/navigation.o
+ .debug_info    0x0000c5ae     0x1676 src/asf/avr32/utils/debug/print_funcs.o
+ .debug_info    0x0000dc24       0xaa src/asf/avr32/utils/startup/startup_uc3.o
+ .debug_info    0x0000dcce       0xb1 src/asf/avr32/utils/startup/trampoline_uc3.o
+ .debug_info    0x0000dd7f      0xeb4 src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx.o
+ .debug_info    0x0000ec33      0x1ce src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx_mem.o
+ .debug_info    0x0000ee01      0x569 src/asf/common/services/storage/ctrl_access/ctrl_access.o
+ .debug_info    0x0000f36a     0x21d9 src/fat_example.o
+ .debug_info    0x00011543       0x71 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-ctype_.o)
+ .debug_info    0x000115b4       0xe5 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00011699       0xcd c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memset.o)
+ .debug_info    0x00011766       0xbe c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-strlen.o)
 
 .debug_abbrev   0x00000000     0x28be
  *(.debug_abbrev)
@@ -2088,51 +2088,51 @@ LOAD c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/av
  .debug_frame   0x00002734       0x20 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memset.o)
  .debug_frame   0x00002754       0x20 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-strlen.o)
 
-.debug_str      0x00000000     0x44d1
+.debug_str      0x00000000     0x452a
  *(.debug_str)
- .debug_str     0x00000000      0x75c src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi.o
-                                0x7f8 (size before relaxing)
- .debug_str     0x0000075c      0x150 src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi_mem.o
-                                0x2a6 (size before relaxing)
- .debug_str     0x000008ac      0x396 src/asf/avr32/boards/evk1100/led.o
-                                0x4e1 (size before relaxing)
- .debug_str     0x00000c42      0x2fd src/asf/avr32/drivers/gpio/gpio.o
-                                0x549 (size before relaxing)
- .debug_str     0x00000f3f      0x37d src/asf/avr32/drivers/intc/intc.o
-                                0x49d (size before relaxing)
- .debug_str     0x000012bc      0x7b9 src/asf/avr32/drivers/pm/pm.o
-                                0x9b5 (size before relaxing)
- .debug_str     0x00001a75       0xe6 src/asf/avr32/drivers/pm/power_clocks_lib.o
-                                0x551 (size before relaxing)
- .debug_str     0x00001b5b      0x1a2 src/asf/avr32/drivers/spi/spi.o
-                                0x582 (size before relaxing)
- .debug_str     0x00001cfd      0x758 src/asf/avr32/drivers/usart/usart.o
-                                0x91c (size before relaxing)
- .debug_str     0x00002455      0x903 src/asf/avr32/services/fs/fat/fat.o
-                                0xad5 (size before relaxing)
- .debug_str     0x00002d58      0x6a2 src/asf/avr32/services/fs/fat/fat_unusual.o
+ .debug_str     0x00000000      0x75a src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi.o
+                                0x7f6 (size before relaxing)
+ .debug_str     0x0000075a      0x150 src/asf/avr32/components/memory/sd_mmc/sd_mmc_spi/sd_mmc_spi_mem.o
+                                0x2a4 (size before relaxing)
+ .debug_str     0x000008aa      0x396 src/asf/avr32/boards/evk1100/led.o
+                                0x4df (size before relaxing)
+ .debug_str     0x00000c40      0x2fd src/asf/avr32/drivers/gpio/gpio.o
+                                0x547 (size before relaxing)
+ .debug_str     0x00000f3d      0x37d src/asf/avr32/drivers/intc/intc.o
+                                0x49b (size before relaxing)
+ .debug_str     0x000012ba      0x7b9 src/asf/avr32/drivers/pm/pm.o
+                                0x9b3 (size before relaxing)
+ .debug_str     0x00001a73       0xe6 src/asf/avr32/drivers/pm/power_clocks_lib.o
+                                0x54f (size before relaxing)
+ .debug_str     0x00001b59      0x1a2 src/asf/avr32/drivers/spi/spi.o
+                                0x580 (size before relaxing)
+ .debug_str     0x00001cfb      0x758 src/asf/avr32/drivers/usart/usart.o
+                                0x91a (size before relaxing)
+ .debug_str     0x00002453      0x903 src/asf/avr32/services/fs/fat/fat.o
+                                0xad3 (size before relaxing)
+ .debug_str     0x00002d56      0x6fd src/asf/avr32/services/fs/fat/fat_unusual.o
                                 0xb01 (size before relaxing)
- .debug_str     0x000033fa      0x1c8 src/asf/avr32/services/fs/fat/file.o
+ .debug_str     0x00003453      0x1c8 src/asf/avr32/services/fs/fat/file.o
                                 0x541 (size before relaxing)
- .debug_str     0x000035c2      0x78b src/asf/avr32/services/fs/fat/navigation.o
+ .debug_str     0x0000361b      0x78b src/asf/avr32/services/fs/fat/navigation.o
                                 0xbe0 (size before relaxing)
- .debug_str     0x00003d4d      0x120 src/asf/avr32/utils/debug/print_funcs.o
+ .debug_str     0x00003da6      0x120 src/asf/avr32/utils/debug/print_funcs.o
                                 0x652 (size before relaxing)
- .debug_str     0x00003e6d      0x191 src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx.o
+ .debug_str     0x00003ec6      0x191 src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx.o
                                 0x585 (size before relaxing)
- .debug_str     0x00003ffe       0xce src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx_mem.o
+ .debug_str     0x00004057       0xce src/asf/common/components/memory/data_flash/at45dbx/_asf_v1/at45dbx_mem.o
                                 0x219 (size before relaxing)
- .debug_str     0x000040cc      0x120 src/asf/common/services/storage/ctrl_access/ctrl_access.o
+ .debug_str     0x00004125      0x120 src/asf/common/services/storage/ctrl_access/ctrl_access.o
                                 0x2fc (size before relaxing)
- .debug_str     0x000041ec      0x162 src/fat_example.o
+ .debug_str     0x00004245      0x162 src/fat_example.o
                                 0x922 (size before relaxing)
- .debug_str     0x0000434e       0x5f c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-ctype_.o)
+ .debug_str     0x000043a7       0x5f c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-ctype_.o)
                                  0x7c (size before relaxing)
- .debug_str     0x000043ad       0x66 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memcmp.o)
+ .debug_str     0x00004406       0x66 c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memcmp.o)
                                  0xfb (size before relaxing)
- .debug_str     0x00004413       0x5f c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memset.o)
+ .debug_str     0x0000446c       0x5f c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-memset.o)
                                  0xfb (size before relaxing)
- .debug_str     0x00004472       0x5f c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-strlen.o)
+ .debug_str     0x000044cb       0x5f c:/program files/atmel/atmel studio 6.0/extensions/atmel/avrgcc/3.4.0.65/avrtoolchain/bin/../lib/gcc/avr32/4.4.3/../../../../avr32/lib/ucr2\libc.a(lib_a-strlen.o)
                                 0x101 (size before relaxing)
 
 .debug_loc      0x00000000     0x6b52
